@@ -1,4 +1,4 @@
-
+ 
 package car;
 
 public class CarTest {
@@ -14,7 +14,9 @@ public class CarTest {
         
        Car car1= new Car(make1, model1, year1, nickName1, color1, yearsOwned1, miles1);
        
-       System.out.println("Car 1: " + car1.getMake() + " " + car1.getModel() + " from " + car1.getYear()  );
+       System.out.println("Car 1: " + car1.getColor() + " " + car1.getMake() + " " + car1.getModel() + " from " + car1.getYear());
+       System.out.println("Nickname: " + car1.getNickName() + ", " + "owned for " + car1.getYearsOwned() + " Years");
+       System.out.println("Mileage: " + car1.getMiles() + " Miles");
        
        car1.turnOn();
        car1.turnOff();

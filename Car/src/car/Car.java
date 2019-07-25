@@ -21,9 +21,7 @@ public class Car {
        
    }
 
-    Car(String make1, String model1, int year1, String nickName1, String color1, int yearsOwned1, double miles1) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+  
    
        public String getMake() {
         return make;
